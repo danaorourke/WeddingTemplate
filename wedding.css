@@ -1,0 +1,33 @@
+/*-----------------------------------------------------
+ *	version:	1.0.0 (2012.05.15)	
+ *	origin:		theorourkes.us/wedding by Dana O'Rourke @ CupofTeaCreations.com
+-------------------------------------------------------*/
+@font-face {font-family: 'QuicksandBook'; src: url('font/Quicksand_Book-webfont.eot'); src: url('font/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'), url('font/Quicksand_Book-webfont.woff') format('woff'), url('font/Quicksand_Book-webfont.ttf') format('truetype'), url('font/Quicksand_Book-webfont.svg#QuicksandBook') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'QuicksandLight'; src: url('font/Quicksand_Light-webfont.eot'); src: url('font/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'), url('font/Quicksand_Light-webfont.woff') format('woff'), url('font/Quicksand_Light-webfont.ttf') format('truetype'), url('font/Quicksand_Light-webfont.svg#QuicksandLight') format('svg'); font-weight: normal; font-style: normal;}
+
+/* reset
+-------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;} html {overflow-y: scroll;} body {line-height: 1;} focus {outline: 1;} article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display: block;}
+blockquote, q {quotes: none;} blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;} a, img {border: 0; outline: none;} abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;} table {border-collapse: collapse; border-spacing: 0;} input, select {vertical-align: middle;}
+
+/* general -
+-------------------------------------------------------*/
+html {background: #EEEEEE; font: 18px 'QuicksandLight', Helvetica, sans-serif; text-align: center; width: 100%;}
+body {width: 100%;}
+#logo {display: block; margin: 20px auto 20px;  clear: both;}
+#content {margin: 0 auto; overflow: auto; padding: 20px 20px 60px; max-width: 600px;}
+	h1, h2, h3 {font: 2.667em 'QuicksandBook', Helvetica, sans-serif; padding-bottom: 40px;}
+	h1 > span {display: block; font-size: 1.58em;}
+	#date {font-size: 2.222em;}
+	#time {font-size: 3.611em;}
+	#place {font-size: 1.111em;}
+	#map, #map_canvas {margin: 0 auto 60px; max-width: 600px;}
+		#map_canvas {border: 3px solid #C2C2C2; height: 400px;}
+		#map > dl {display: block; overflow: auto; margin: 0 auto; max-width: 375px;}
+		#map > dl > dt {clear: left; float: left;}
+		#map > dl > dd {min-height: 55px; padding-bottom: 20px;}
+		#map > dl > dd.sm {line-height: 55px;}
+#gifts {background: #555555; color: #FFFFFF; padding: 40px 0; width: 100%;}
+	#gifts > h1, #gifts p {margin: 0 auto; padding: 0 20px 20px; max-width: 600px;}
+	#gifts > h1 {font-size: 3.722em; padding-bottom: 40px;}
+	#gifts > p {text-align: left;}
